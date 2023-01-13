@@ -22,7 +22,32 @@
             transition: 0.3s;
         }
 
-        
+        /* 기본으로 데스크탑용 스타일이 적용되는데 어느 조건이면 ~ 태블릿용 스타일, */
+        /* 어느 조건이면 ~ 모바일용 스타일 이렇게 조건을 걸어줄거임 */
+
+        /* 태블릿용 스타일 */
+        @media(max-width:960px){
+        /* 브라우저 폭이 최대 960픽셀까지는 아래 스타일을 적용해라 */
+            div{
+            width: calc(100% - 24px);
+            height: 100px;
+            margin-right: 12px;
+            margin-left: 12px;
+            background: #00ff00;    
+            }
+        }
+
+        /* 모바일용 스타일 */
+        @media(max-width:560px){
+        /* 브라우저 폭이 최대 560픽셀까지는 아래 스타일을 적용해라 */
+            div{
+            width: 100px;
+            height: 100px;
+            margin-right: auto;
+            margin-left: auto;
+            background: #0000ff;    
+            }
+        }
     </style>
 </head>
 <body>
