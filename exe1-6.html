@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>리스트를 이용한 네비게이션</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            border: none;
+            padding: 0;
+            font-size: 16px;
+        }
+
+        h1,h2,h3,h4,h5,h6,strong{
+            font-weight: 400;
+        }
+
+        a{
+            color: black;
+            text-decoration: none;
+        }
+
+        header{
+            width: 960px;
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+
+        ol,ul,li{
+            list-style: none;
+        }
+
+
+        h1{
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 a span{
+            display: none;
+        }
+
+        nav ul li ul li{
+            display: none;
+        }
+
+        nav ul li{
+            float: left;
+            width: 150px;
+            margin-right: 12px;
+            padding: 10px 0 12px 0;
+            font-weight: 700;
+            font-size: 18px;
+            color: #333333;
+            text-align: center;
+        }
+
+        nav ul li:last-child{
+            margin-right: 0px;
+        }
+
+        nav ul li:hover{
+            background-color: darkred;
+            color: white;
+        }
+
+        nav ul:hover ul li{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="./exe1-6.html">
+                <img src="./images/hollys_logo.gif" alt="시작페이지로 이동"><span>HOLLYS</span>
+            </a>
+        </h1>
+        <nav>
+            <ul>
+                <li>
+                    Menu
+                    <ul>
+                        <li> <a href="#">COFFEE</a></li>
+                        <li> <a href="#">라떼·초콜릿·티</a></li>
+                        <li> <a href="#">할라치노·빙수</a></li>
+                        <li> <a href="#">스파클링</a></li>
+                        <li> <a href="#">푸드</a></li>
+                        <li> <a href="#">MD상품</a></li>
+                        <li> <a href="#">MD식품</a></li>
+                    </ul>
+                </li>
+        
+                <li>
+                    HOLLYS Mall
+                    <ul>
+                        <li> <a href="#">할리스콘</a></li>
+                        <li> <a href="#">할리스카드</a></li>
+                        <li> <a href="#">E-Store</a></li>
+                        <li> <a href="#">구매내역</a></li>
+                    </ul>
+                </li>
+        
+                <li>
+                    Membership
+                    <ul>
+                        <li> <a href="#">스마트오더</a></li>
+                        <li> <a href="#">멤버십 혜택</a></li>
+                    </ul>
+                </li>
+        
+                <li>
+                    HOLLYS News
+                    <ul>
+                        <li> <a href="#">Notice</a></li>
+                        <li> <a href="#">Event</a></li>
+                    </ul>
+                </li>
+        
+                <li>
+                    Store
+                    <ul>
+                        <li> <a href="#">매장검색</a></li>
+                    </ul>
+                </li>
+        
+                <li>
+                    HOLLYS is
+                    <ul>
+                        <li> <a href="#">HOLLYS</a></li>
+                        <li> <a href="#">할리스 위치 및 연락처</a></li>
+                        <li> <a href="#">채용 안내</a></li>
+                        <li> <a href="#">가맹문의 및 절차</a></li>
+                        <li> <a href="#">B2B 사업 소개</a></li>
+                    </ul>
+                </li>
+        
+            </ul>
+        </nav>
+    </header>
+    <section>
+
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>
